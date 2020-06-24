@@ -19,4 +19,7 @@ contract Aluguel {
         locatario = _Locatario;
         valor = ValorDoAluguel;
     }
+    function valorDoAluguel ( ) public view returns (uint256) {
+        return valor;
+        }
 }
